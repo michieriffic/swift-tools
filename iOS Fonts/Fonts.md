@@ -2,7 +2,7 @@ iOS 10, Xcode 8
 
 #Fonts for iOS, MacOS, watchOS, TVOS
 
-Total of 75 fonts
+Total of 75 fonts (system font not included)
 
 1. Copperplate ["Copperplate-Light", "Copperplate", "Copperplate-Bold"]
 2. Heiti SC []
