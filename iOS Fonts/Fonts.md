@@ -16,7 +16,7 @@ Swift 3.0
 
 1. Add the font in your project files. (Drag and drop, just like how you add your images or other files in the project navigation area. Make sure to check COPY ITEMS AS NEEDED, and check targets at ADD TO TARGETS)
 2. See if it is added in the **Copy Bundle Resources**. (Choose Target, go to Build Phase -> Copy Bundle Resources -> "FIND YOUR FONT FILE")
-3. **Info.plist File** -> Add your font in the "Font Provided by application" key. If no key exist, make a key under that name of type Array . (Please make sure it is the full name or correct name of the font. Your new font should be of type String).
+3. **Info.plist File** -> Add your font in the "Font Provided by application" key. If no key exist, make a key under that name of type Array. Add your font under that key. Automatically Item 0 will be created, with type String, add your complete font name in the value (example: Copperplate-Light.ttf).   
 4. Use it just like the custom font ```label.font = UIFont (name: "Your-Awesome-Font", size: 25)``` or change the font via the Interface Builder found in the Attribute inspector of the certain UI Controls.
 
 
